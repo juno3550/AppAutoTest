@@ -108,12 +108,12 @@ class Excel:
             cell.value = data[idx]
 
     # 生成写入了测试结果的excel数据文件
-    def save(self, timestamp):
+    def save(self, save_file_name, timestamp):
         save_dir = os.path.join(TEST_REPORT_FILE_DIR, get_chinese_date())
         if not os.path.exists(save_dir):
             os.mkdir(save_dir)
         excel_file_name = os.path.basename(self.data_file_path)
-        save_file = os.path.join(save_dir, excel_file_name.split(".")[0]+"_测试报告_"+timestamp+".xlsx")
+        save_file = os.path.join(save_dir, save_file_name + "_" + timestamp + ".xlsx")
         self.wb.save(save_file)
         info("生成测试结果文件：%s" % save_file)
         return save_file
