@@ -1,0 +1,252 @@
+2021-04-13 10:47:10 [INFO] -------------------------------------------------- 测试用例集【进入APP主页】开始执行！--------------------------------------------------
+2021-04-13 10:47:12 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:platformVersion": "6", "appium:deviceName": "3DN6T16B26001805", "appium:appPackage": "com.xsteach.appedu", "appium:appActivity": "com.xsteach.appedu.StartActivity", "appium:unicodeKeyboard": "True", "appium:autoAcceptAlerts": "True", "appium:resetKeyboard": "True", "appium:noReset": "True", "appium:newCommandTimeout": "6000"}]}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "6", "deviceName": "3DN6T16B26001805", "appPackage": "com.xsteach.appedu", "appActivity": "com.xsteach.appedu.StartActivity", "unicodeKeyboard": "True", "autoAcceptAlerts": "True", "resetKeyboard": "True", "noReset": "True", "newCommandTimeout": "6000"}}
+2021-04-13 10:47:12 [DEBUG] Starting new HTTP connection (1): 127.0.0.1:4723
+2021-04-13 10:47:39 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 950
+2021-04-13 10:47:39 [DEBUG] Finished Request
+2021-04-13 10:47:39 [INFO] 测试用例步骤执行成功：【启动APP】 open_app()
+2021-04-13 10:47:39 [INFO] ################################################## 测试用例集【进入APP主页】执行成功！ ##################################################
+
+2021-04-13 10:47:39 [INFO] -------------------------------------------------- 测试用例集【登录】开始执行！--------------------------------------------------
+2021-04-13 10:47:39 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "close_iv", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:47:41 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 200 87
+2021-04-13 10:47:41 [DEBUG] Finished Request
+2021-04-13 10:47:41 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element/1/click {"id": "1", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:47:44 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element/1/click HTTP/1.1" 200 76
+2021-04-13 10:47:44 [DEBUG] Finished Request
+2021-04-13 10:47:44 [INFO] 测试用例步骤执行成功：【关闭更新提示】 click('id', 'close_iv')
+2021-04-13 10:47:44 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "content_rb_mine", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:47:44 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 200 87
+2021-04-13 10:47:44 [DEBUG] Finished Request
+2021-04-13 10:47:44 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element/2/click {"id": "2", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:47:45 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element/2/click HTTP/1.1" 200 76
+2021-04-13 10:47:45 [DEBUG] Finished Request
+2021-04-13 10:47:45 [INFO] 测试用例步骤执行成功：【点击个人中心】 click('id', 'content_rb_mine')
+2021-04-13 10:47:45 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "tvLogin", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:47:46 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 200 87
+2021-04-13 10:47:46 [DEBUG] Finished Request
+2021-04-13 10:47:46 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element/3/click {"id": "3", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:47:46 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element/3/click HTTP/1.1" 200 76
+2021-04-13 10:47:46 [DEBUG] Finished Request
+2021-04-13 10:47:46 [INFO] 测试用例步骤执行成功：【点击点击登录按钮】 click('id', 'tvLogin')
+2021-04-13 10:47:46 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "etUser", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:47:47 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 200 87
+2021-04-13 10:47:47 [DEBUG] Finished Request
+2021-04-13 10:47:47 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element/4/value {"text": "fosterwu", "value": ["f", "o", "s", "t", "e", "r", "w", "u"], "id": "4", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:47:52 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element/4/value HTTP/1.1" 200 76
+2021-04-13 10:47:52 [DEBUG] Finished Request
+2021-04-13 10:47:52 [INFO] 测试用例步骤执行成功：【输入用户名】 input_string('id', 'etUser', 'fosterwu')
+2021-04-13 10:47:52 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "etPwd", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:47:53 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 200 87
+2021-04-13 10:47:53 [DEBUG] Finished Request
+2021-04-13 10:47:53 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element/5/value {"text": "gloryroad123", "value": ["g", "l", "o", "r", "y", "r", "o", "a", "d", "1", "2", "3"], "id": "5", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:47:59 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element/5/value HTTP/1.1" 200 76
+2021-04-13 10:47:59 [DEBUG] Finished Request
+2021-04-13 10:47:59 [INFO] 测试用例步骤执行成功：【输入密码】 input_string('id', 'etPwd', 'gloryroad123')
+2021-04-13 10:48:00 [INFO] 测试用例步骤执行成功：【等待1秒】 sleep('1')
+2021-04-13 10:48:00 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "btnLogin", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:00 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 200 87
+2021-04-13 10:48:00 [DEBUG] Finished Request
+2021-04-13 10:48:00 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element/6/click {"id": "6", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:00 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element/6/click HTTP/1.1" 200 76
+2021-04-13 10:48:00 [DEBUG] Finished Request
+2021-04-13 10:48:00 [INFO] 测试用例步骤执行成功：【点击登录】 click('id', 'btnLogin')
+2021-04-13 10:48:02 [INFO] 测试用例步骤执行成功：【等待2秒】 sleep('2')
+2021-04-13 10:48:02 [DEBUG] GET http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/source {"sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:02 [DEBUG] http://127.0.0.1:4723 "GET /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/source HTTP/1.1" 200 31032
+2021-04-13 10:48:02 [DEBUG] Finished Request
+2021-04-13 10:48:02 [INFO] 断言成功【关键字：我的积分】
+2021-04-13 10:48:02 [INFO] 测试用例步骤执行成功：【断言是否登录成功】 assert_string_in_pagesource('我的积分')
+2021-04-13 10:48:02 [INFO] ################################################## 测试用例集【登录】执行成功！ ##################################################
+
+2021-04-13 10:48:02 [INFO] -------------------------------------------------- 测试用例集【搜索】开始执行！--------------------------------------------------
+2021-04-13 10:48:02 [INFO] 测试用例步骤【等待2秒】无需执行
+2021-04-13 10:48:02 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "content_rb_home", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:03 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 200 87
+2021-04-13 10:48:03 [DEBUG] Finished Request
+2021-04-13 10:48:03 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element/7/click {"id": "7", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:03 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element/7/click HTTP/1.1" 200 76
+2021-04-13 10:48:03 [DEBUG] Finished Request
+2021-04-13 10:48:03 [INFO] 测试用例步骤执行成功：【回到首页】 click('id', 'content_rb_home')
+2021-04-13 10:48:03 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "rl_home_top_search", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:04 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 200 87
+2021-04-13 10:48:04 [DEBUG] Finished Request
+2021-04-13 10:48:04 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element/8/click {"id": "8", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:05 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element/8/click HTTP/1.1" 200 76
+2021-04-13 10:48:05 [DEBUG] Finished Request
+2021-04-13 10:48:05 [INFO] 测试用例步骤执行成功：【点击搜索框】 click('id', 'rl_home_top_search')
+2021-04-13 10:48:05 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "editText", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:06 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 200 87
+2021-04-13 10:48:06 [DEBUG] Finished Request
+2021-04-13 10:48:06 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element/9/value {"text": "python", "value": ["p", "y", "t", "h", "o", "n"], "id": "9", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:13 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element/9/value HTTP/1.1" 200 76
+2021-04-13 10:48:13 [DEBUG] Finished Request
+2021-04-13 10:48:13 [INFO] 测试用例步骤执行成功：【输入搜索关键字】 input_string('id', 'editText', 'python')
+2021-04-13 10:48:16 [INFO] 测试用例步骤执行成功：【等待】 sleep('3')
+2021-04-13 10:48:16 [DEBUG] GET http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/source {"sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:16 [DEBUG] http://127.0.0.1:4723 "GET /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/source HTTP/1.1" 200 21307
+2021-04-13 10:48:16 [DEBUG] Finished Request
+2021-04-13 10:48:16 [INFO] 断言成功【关键字：python】
+2021-04-13 10:48:16 [INFO] 测试用例步骤执行成功：【断言搜索结果】 assert_string_in_pagesource('python')
+2021-04-13 10:48:16 [INFO] ################################################## 测试用例集【搜索】执行成功！ ##################################################
+
+2021-04-13 10:48:16 [INFO] -------------------------------------------------- 测试用例集【搜索】开始执行！--------------------------------------------------
+2021-04-13 10:48:16 [INFO] 测试用例步骤【等待2秒】无需执行
+2021-04-13 10:48:16 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "content_rb_home", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:16 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 500 164
+2021-04-13 10:48:16 [DEBUG] Finished Request
+2021-04-13 10:48:17 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "content_rb_home", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:18 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 500 164
+2021-04-13 10:48:18 [DEBUG] Finished Request
+2021-04-13 10:48:18 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "content_rb_home", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:18 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 500 164
+2021-04-13 10:48:18 [DEBUG] Finished Request
+2021-04-13 10:48:18 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "content_rb_home", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:19 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 500 164
+2021-04-13 10:48:19 [DEBUG] Finished Request
+2021-04-13 10:48:19 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "content_rb_home", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:19 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 500 164
+2021-04-13 10:48:20 [DEBUG] Finished Request
+2021-04-13 10:48:20 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "content_rb_home", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:20 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 500 164
+2021-04-13 10:48:20 [DEBUG] Finished Request
+2021-04-13 10:48:21 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "content_rb_home", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:21 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 500 164
+2021-04-13 10:48:21 [DEBUG] Finished Request
+2021-04-13 10:48:21 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "content_rb_home", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:21 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 500 164
+2021-04-13 10:48:21 [DEBUG] Finished Request
+2021-04-13 10:48:21 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "content_rb_home", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:22 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 500 164
+2021-04-13 10:48:22 [DEBUG] Finished Request
+2021-04-13 10:48:22 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "content_rb_home", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:23 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 500 164
+2021-04-13 10:48:23 [DEBUG] Finished Request
+2021-04-13 10:48:23 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "content_rb_home", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:23 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 500 164
+2021-04-13 10:48:23 [DEBUG] Finished Request
+2021-04-13 10:48:24 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "content_rb_home", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:24 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 500 164
+2021-04-13 10:48:24 [DEBUG] Finished Request
+2021-04-13 10:48:24 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "content_rb_home", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:24 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 500 164
+2021-04-13 10:48:24 [DEBUG] Finished Request
+2021-04-13 10:48:25 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "content_rb_home", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:25 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 500 164
+2021-04-13 10:48:25 [DEBUG] Finished Request
+2021-04-13 10:48:25 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "content_rb_home", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:26 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 500 164
+2021-04-13 10:48:26 [DEBUG] Finished Request
+2021-04-13 10:48:26 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "content_rb_home", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:26 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 500 164
+2021-04-13 10:48:26 [DEBUG] Finished Request
+2021-04-13 10:48:26 [INFO] 测试用例步骤执行失败：【回到首页】 click('id', 'content_rb_home')
+2021-04-13 10:48:26 [ERROR] Traceback (most recent call last):
+  File "E:\pycharm_project_dir\AppAutoTest\bussiness_process\case_process.py", line 52, in execute_case
+    eval(func)
+  File "<string>", line 1, in <module>
+  File "E:\pycharm_project_dir\AppAutoTest\action\page_action.py", line 49, in click
+    find_element(DRIVER, location_type, locator_expression).click()
+  File "E:\pycharm_project_dir\AppAutoTest\util\find_element_util.py", line 7, in find_element
+    return WebDriverWait(driver, 10, 0.2).until(lambda x: x.find_element(locate_method, locate_exp))
+  File "C:\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2021-04-13 10:48:26 [DEBUG] GET http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/screenshot {"sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:34 [DEBUG] http://127.0.0.1:4723 "GET /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/screenshot HTTP/1.1" 200 264746
+2021-04-13 10:48:34 [DEBUG] Finished Request
+2021-04-13 10:48:34 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "rl_home_top_search", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:35 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 500 164
+2021-04-13 10:48:35 [DEBUG] Finished Request
+2021-04-13 10:48:35 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "rl_home_top_search", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:37 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 500 164
+2021-04-13 10:48:37 [DEBUG] Finished Request
+2021-04-13 10:48:37 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "rl_home_top_search", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:38 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 500 164
+2021-04-13 10:48:38 [DEBUG] Finished Request
+2021-04-13 10:48:38 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "rl_home_top_search", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:38 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 500 164
+2021-04-13 10:48:38 [DEBUG] Finished Request
+2021-04-13 10:48:39 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "rl_home_top_search", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:39 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 500 164
+2021-04-13 10:48:39 [DEBUG] Finished Request
+2021-04-13 10:48:39 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "rl_home_top_search", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:39 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 500 164
+2021-04-13 10:48:39 [DEBUG] Finished Request
+2021-04-13 10:48:40 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "rl_home_top_search", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:40 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 500 164
+2021-04-13 10:48:40 [DEBUG] Finished Request
+2021-04-13 10:48:40 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "rl_home_top_search", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:40 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 500 164
+2021-04-13 10:48:40 [DEBUG] Finished Request
+2021-04-13 10:48:41 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "rl_home_top_search", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:41 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 500 164
+2021-04-13 10:48:41 [DEBUG] Finished Request
+2021-04-13 10:48:41 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "rl_home_top_search", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:41 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 500 164
+2021-04-13 10:48:41 [DEBUG] Finished Request
+2021-04-13 10:48:42 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "rl_home_top_search", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:42 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 500 164
+2021-04-13 10:48:42 [DEBUG] Finished Request
+2021-04-13 10:48:42 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "rl_home_top_search", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:42 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 500 164
+2021-04-13 10:48:42 [DEBUG] Finished Request
+2021-04-13 10:48:43 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "rl_home_top_search", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:43 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 500 164
+2021-04-13 10:48:43 [DEBUG] Finished Request
+2021-04-13 10:48:43 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "rl_home_top_search", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:44 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 500 164
+2021-04-13 10:48:44 [DEBUG] Finished Request
+2021-04-13 10:48:44 [INFO] 测试用例步骤执行失败：【点击搜索框】 click('id', 'rl_home_top_search')
+2021-04-13 10:48:44 [ERROR] Traceback (most recent call last):
+  File "E:\pycharm_project_dir\AppAutoTest\bussiness_process\case_process.py", line 52, in execute_case
+    eval(func)
+  File "<string>", line 1, in <module>
+  File "E:\pycharm_project_dir\AppAutoTest\action\page_action.py", line 49, in click
+    find_element(DRIVER, location_type, locator_expression).click()
+  File "E:\pycharm_project_dir\AppAutoTest\util\find_element_util.py", line 7, in find_element
+    return WebDriverWait(driver, 10, 0.2).until(lambda x: x.find_element(locate_method, locate_exp))
+  File "C:\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2021-04-13 10:48:44 [DEBUG] GET http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/screenshot {"sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:52 [DEBUG] http://127.0.0.1:4723 "GET /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/screenshot HTTP/1.1" 200 264738
+2021-04-13 10:48:52 [DEBUG] Finished Request
+2021-04-13 10:48:52 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element {"using": "id", "value": "editText", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:52 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element HTTP/1.1" 200 88
+2021-04-13 10:48:52 [DEBUG] Finished Request
+2021-04-13 10:48:52 [DEBUG] POST http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element/10/value {"text": "mysql", "value": ["m", "y", "s", "q", "l"], "id": "10", "sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:48:58 [DEBUG] http://127.0.0.1:4723 "POST /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/element/10/value HTTP/1.1" 200 76
+2021-04-13 10:48:58 [DEBUG] Finished Request
+2021-04-13 10:48:58 [INFO] 测试用例步骤执行成功：【输入搜索关键字】 input_string('id', 'editText', 'mysql')
+2021-04-13 10:49:01 [INFO] 测试用例步骤执行成功：【等待】 sleep('3')
+2021-04-13 10:49:01 [DEBUG] GET http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/source {"sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:49:01 [DEBUG] http://127.0.0.1:4723 "GET /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/source HTTP/1.1" 200 11062
+2021-04-13 10:49:01 [DEBUG] Finished Request
+2021-04-13 10:49:01 [ERROR] 断言失败【关键字：mysql5.6】
+2021-04-13 10:49:01 [INFO] 测试用例步骤执行失败：【断言搜索结果】 assert_string_in_pagesource('mysql5.6')
+2021-04-13 10:49:01 [ERROR] Traceback (most recent call last):
+  File "E:\pycharm_project_dir\AppAutoTest\bussiness_process\case_process.py", line 52, in execute_case
+    eval(func)
+  File "<string>", line 1, in <module>
+  File "E:\pycharm_project_dir\AppAutoTest\action\page_action.py", line 56, in assert_string_in_pagesource
+    assert assert_string in DRIVER.page_source, "%s not found in page source!" % assert_string
+AssertionError: mysql5.6 not found in page source!
+
+2021-04-13 10:49:01 [DEBUG] GET http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/screenshot {"sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:49:08 [DEBUG] http://127.0.0.1:4723 "GET /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5/screenshot HTTP/1.1" 200 106430
+2021-04-13 10:49:08 [DEBUG] Finished Request
+2021-04-13 10:49:08 [ERROR] ################################################## 测试用例集【搜索】执行失败！ ##################################################
+
+2021-04-13 10:49:08 [INFO] -------------------------------------------------- 测试用例集【退出APP】开始执行！--------------------------------------------------
+2021-04-13 10:49:08 [DEBUG] DELETE http://127.0.0.1:4723/wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5 {"sessionId": "13d9b222-a667-46c5-a732-605a187a91a5"}
+2021-04-13 10:49:14 [DEBUG] http://127.0.0.1:4723 "DELETE /wd/hub/session/13d9b222-a667-46c5-a732-605a187a91a5 HTTP/1.1" 200 76
+2021-04-13 10:49:14 [DEBUG] Finished Request
+2021-04-13 10:49:14 [INFO] 测试用例步骤执行成功：【退出APP】 quit_app()
+2021-04-13 10:49:14 [INFO] ################################################## 测试用例集【退出APP】执行成功！ ##################################################
+
+2021-04-13 10:49:14 [INFO] 生成测试结果文件：E:\pycharm_project_dir\AppAutoTest\test_report\2021年04月13日\test_case_测试报告_20210413_104914.xlsx
+2021-04-13 10:49:18 [INFO] 测试报告邮件发送成功!【邮件标题：app自动化测试_20210413_104914】【邮件附件：E:\pycharm_project_dir\AppAutoTest\test_report\2021年04月13日\test_case_测试报告_20210413_104914.xlsx】【收件人：['itsjuno@163.com', '182230124@qq.com']】
