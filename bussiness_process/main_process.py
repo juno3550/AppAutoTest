@@ -6,7 +6,7 @@ from bussiness_process.case_process import execute_case
 from bussiness_process.data_source_process import get_test_data
 
 
-# 执行具体的测试用例步骤sheet
+# # 执行具体模块的用例sheet（登录sheet，搜索sheet等）
 def suite_process(excel_file_path, sheet_name, test_data_source=None):
     """
     :param excel_file_path: excel文件绝对路径或excel对象
