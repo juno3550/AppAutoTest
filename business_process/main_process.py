@@ -79,12 +79,6 @@ def main_suite_process(excel_file_path, sheet_name):
     # 标题行数据
     head_line_data = all_row_datas[0]
     for row_data in all_row_datas[1:]:
-        # 跳过不需要执行的测试用例集
-        if row_data[TESTCASE_IS_EXECUTE_COL_NO].lower() == "n":
-            info("#" * 50 + " 测试用例集【%s】无需执行！" % row_data[TESTCASE_CASE_NAME_COL_NO] + "#" * 50 + "\n")
-            continue
-        # 记录本用例集的测试时间
-        row_data[TESTCASE_TEST_TIME_COL_NO] = get_english_datetime()
         # 校验用例步骤sheet名是否存在
         if row_data[TESTCASE_CASE_STEP_SHEET_NAME_COL_NO] not in excel.get_all_sheet():
             error("#" * 50 + " 用例步骤集【%s】不存在！ " % row_data[TESTCASE_CASE_STEP_SHEET_NAME_COL_NO] + "#" * 50 + "\n")
@@ -92,6 +86,12 @@ def main_suite_process(excel_file_path, sheet_name):
             excel.write_row_data(head_line_data, None, True, "red")
             excel.write_row_data(row_data)
             continue
+        # 跳过不需要执行的测试用例集
+        if row_data[TESTCASE_IS_EXECUTE_COL_NO].lower() == "n":
+            info("#" * 50 + " 测试用例集【%s】无需执行！" % row_data[TESTCASE_CASE_NAME_COL_NO] + "#" * 50 + "\n")
+            continue
+        # 记录本用例集的测试时间
+        row_data[TESTCASE_TEST_TIME_COL_NO] = get_english_datetime()
         # 判断本测试用例集是否进行数据驱动
         if row_data[TESTCASE_DATA_SOURCE_SHEET_NAME_COL_NO]:
             # 校验测试数据集sheet名是否存在
