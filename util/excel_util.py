@@ -112,7 +112,6 @@ class Excel:
         save_dir = os.path.join(TEST_REPORT_FILE_DIR, get_chinese_date())
         if not os.path.exists(save_dir):
             os.mkdir(save_dir)
-        excel_file_name = os.path.basename(self.data_file_path)
         save_file = os.path.join(save_dir, save_file_name + "_" + timestamp + ".xlsx")
         self.wb.save(save_file)
         info("生成测试结果文件：%s" % save_file)
