@@ -1,5 +1,8 @@
 # AppAutoTest
  基于Appium的APP自动化测试框架：关键字驱动+数据驱动
+ 
+ 博客详解：https://www.cnblogs.com/juno3550/p/14651321.html
+ 
 </br>
 整个测试框架分为四层，通过分层的方式，测试代码更容易理解，维护起来较为方便。
 
