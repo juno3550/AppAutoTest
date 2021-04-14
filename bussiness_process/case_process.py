@@ -7,7 +7,7 @@ from util.excel_util import Excel
 from action.page_action import *
 
 
-# 执行一条测试用例（即一行测试数据）
+# 执行单条测试用例（对应excel测试数据文件中的一行测试用例数据）
 def execute_case(excel_file_path, case_data, test_data_source=None):
     # 用例数据格式校验
     if not isinstance(case_data, (list, tuple)):
