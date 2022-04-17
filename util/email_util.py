@@ -23,4 +23,4 @@ def send_mail(attachments_report_name, receiver, subject, content):
 
 if __name__ == "__main__":
    # send_mail("e:\\code.txt", "182230124@qq.com", "测试邮件", "正文")
-   send_mail("E:\\pycharm_project_dir\\AppAutoTest\\test_report\\2021年04月12日\\测试用例_20210412_215802.xlsx", ["itsjuno@163.com", "182230124@qq.com"], "测试邮件", "正文")
+   send_mail("E:\\pycharm_project_dir\\AppAutoTest\\test_report\\2021年04月12日\\测试用例_20210412_215802.xlsx", ["xxx@163.com", "xxx@qq.com"], "测试邮件", "正文")
